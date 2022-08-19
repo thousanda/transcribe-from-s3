@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "transcribe-from-s3"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-y6om5sasajwr"
+s3_prefix = "transcribe-from-s3"
+region = "ap-northeast-1"
+profile = "thousanda-admin"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
